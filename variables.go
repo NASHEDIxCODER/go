@@ -21,7 +21,7 @@ func main() {
 
 }
 
-// var is used to declare variable even more than one 
+// var is used to declare variable even more than one
 // multiple variables can be declare in one line.
 // variable declared without a corresponding value is zero valued.
 // the := syntax is a shorthand for declaring and initializing a variable e.g for var f string = "apple" in this case this syntax is only available inside functions.

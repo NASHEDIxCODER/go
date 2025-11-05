@@ -35,6 +35,11 @@ func main() {
 	}
 	fmt.Println("twoD array after initialization:", twoD)
 
+	s := [3]string{"Go", "Python", "Java"} //string array 
+	fmt.Println("String array s:", s)
+
+	
+
 }
 
 // we can set a value at an index using the array[index] = value sysntax, and get a value with array[index]

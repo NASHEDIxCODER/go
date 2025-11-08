@@ -16,13 +16,13 @@ func check(e error){ //reading file requires checking most calls for error.
 }
 
 func main(){
-	dat, err := os.ReadFile("data.txt")
+	dat, err := os.ReadFile("test/data.txt")
 //the most basic file reaading task is sluring a file's entire contents into memory.
 	check(err)
 	fmt.Println(string(dat))
 	//if we want more control over and what parts of the file are read for there tasks.
 	//start by opening a file to obtain an os.file value.
-	f, err:= os.Open("data1.txt")
+	f, err:= os.Open("test/data1.txt")
 	check(err)
 
 	b1:= make([]byte, 5) // read 5 bytes from the begining.
